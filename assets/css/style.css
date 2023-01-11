@@ -5,7 +5,6 @@ Theme URI:	https://sandbox.elemisthemes.com/
 Version:	3.2.0
 Author:		elemis
 */
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
 
 @font-face {
   font-family: 'Amsipro';
@@ -47825,7 +47824,7 @@ footer.bg-dark.angled.upper-start:before {
 
 .section-city {
   max-width: 100%;
-  margin: 1rem;
+  margin: 0.5rem;
   border-radius: 10px;
   background-image: linear-gradient(to right, #cf3a48, #c73457, #bc3265, #ae3471, #9e387a, #943a7e, #8a3b82, #7f3d85, #7a3d88, #753d8b, #703d8d, #6a3d90) !important;
 }
@@ -47866,7 +47865,7 @@ footer.bg-dark.angled.upper-start:before {
   position: absolute;
   width: 4.8rem;
   z-index: 0;
-  margin-top: -3.7rem;
+  margin-top: -3.5rem;
   margin-left: 4.5rem;
   transform: rotate(27deg);
 }
@@ -47959,3 +47958,17 @@ footer.bg-dark.angled.upper-start:before {
 
   }
 }
+
+@media (max-width: 320px){
+  .container-img {
+    max-width: 18rem;
+    height: 13.6rem;
+  }
+
+  .container-img img {
+    max-width: 18rem !important;
+    height: 13.6rem !important;
+
+  }
+}
+
